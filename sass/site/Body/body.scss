@@ -1,0 +1,52 @@
+/***
+CAMAPGNE ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+section.campain {
+    background-color: #EEEEEE;
+
+}
+
+div.media-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    
+    div {
+        span.big {
+            font-size: 96px;
+            font-weight: 800;
+        }
+    }
+}
+
+
+/***
+PARTAGE ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+section.share {
+    background-color: #FEECCD;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 0px;
+
+    div.my-container {
+        background-color: #EEEEEE;
+        border-radius: 10px;
+        width: 672px;
+        justify-content: center;
+
+        h3.share-title {
+            color: #F7A61B;
+            font-size: 18px;
+            font-weight: 800;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 22px;
+        }
+
+        div.left-column {
+            border-right: 1px solid #F7A61B;
+        }
+    }
+}
