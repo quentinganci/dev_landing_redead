@@ -23,27 +23,12 @@ $Odibee: 'Odibee Sans', cursive;
 NAVBAR ------------------------------------------------------------------------------------------------------------------------------
 ***/
 
-nav.navbar.my-navbar {
-    background-color: $couleurFondHeader;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
-    
-    .my-logo {
-        max-width: 300px;
+    #headline {
+        font-family: $Raleway;
+        color: $blanc;
+
+        .my-cta {
+            border: none;
+            background-color: $couleurFondHeader;
+        }
     }
-
-
-}
-
-#navbarMenuHeroA .navbar-item.navbar-first-active {
-    font-size: 18px;
-    font-weight: 800;
-    font-family: $Raleway;
-    color: $blanc;
-
-    &:hover{
-        color: black;
-    }
-    &:focus{
-        color: black;
-    }
-}

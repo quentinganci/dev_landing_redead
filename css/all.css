@@ -2,20 +2,24 @@
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   to {
-    transform: rotate(359deg); } }
-.delete, .modal-close, .is-unselectable, .button, .file, .breadcrumb, .pagination-previous,
+    transform: rotate(359deg);
+  }
+}
+.tabs, .pagination-previous,
 .pagination-next,
 .pagination-link,
-.pagination-ellipsis, .tabs {
+.pagination-ellipsis, .breadcrumb, .file, .button, .is-unselectable, .modal-close, .delete {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+}
 
-.select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
+.navbar-link:not(.is-arrowless)::after, .select:not(.is-multiple):not(.is-loading)::after {
   border: 3px solid transparent;
   border-radius: 2px;
   border-right: 0;
@@ -29,13 +33,15 @@
   top: 50%;
   transform: rotate(-45deg);
   transform-origin: center;
-  width: 0.625em; }
+  width: 0.625em;
+}
 
-.box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
-.subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .list:not(:last-child), .message:not(:last-child), .pagination:not(:last-child), .tabs:not(:last-child) {
-  margin-bottom: 1.5rem; }
+.tabs:not(:last-child), .pagination:not(:last-child), .message:not(:last-child), .list:not(:last-child), .level:not(:last-child), .breadcrumb:not(:last-child), .highlight:not(:last-child), .block:not(:last-child), .title:not(:last-child),
+.subtitle:not(:last-child), .table-container:not(:last-child), .table:not(:last-child), .progress:not(:last-child), .notification:not(:last-child), .content:not(:last-child), .box:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
 
-.delete, .modal-close {
+.modal-close, .delete {
   -moz-appearance: none;
   -webkit-appearance: none;
   background-color: rgba(10, 10, 10, 0.2);
@@ -55,49 +61,58 @@
   outline: none;
   position: relative;
   vertical-align: top;
-  width: 20px; }
-  .delete::before, .modal-close::before, .delete::after, .modal-close::after {
-    background-color: white;
-    content: "";
-    display: block;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%) rotate(45deg);
-    transform-origin: center center; }
-  .delete::before, .modal-close::before {
-    height: 2px;
-    width: 50%; }
-  .delete::after, .modal-close::after {
-    height: 50%;
-    width: 2px; }
-  .delete:hover, .modal-close:hover, .delete:focus, .modal-close:focus {
-    background-color: rgba(10, 10, 10, 0.3); }
-  .delete:active, .modal-close:active {
-    background-color: rgba(10, 10, 10, 0.4); }
-  .is-small.delete, .is-small.modal-close {
-    height: 16px;
-    max-height: 16px;
-    max-width: 16px;
-    min-height: 16px;
-    min-width: 16px;
-    width: 16px; }
-  .is-medium.delete, .is-medium.modal-close {
-    height: 24px;
-    max-height: 24px;
-    max-width: 24px;
-    min-height: 24px;
-    min-width: 24px;
-    width: 24px; }
-  .is-large.delete, .is-large.modal-close {
-    height: 32px;
-    max-height: 32px;
-    max-width: 32px;
-    min-height: 32px;
-    min-width: 32px;
-    width: 32px; }
+  width: 20px;
+}
+.modal-close::before, .delete::before, .modal-close::after, .delete::after {
+  background-color: white;
+  content: "";
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform-origin: center center;
+}
+.modal-close::before, .delete::before {
+  height: 2px;
+  width: 50%;
+}
+.modal-close::after, .delete::after {
+  height: 50%;
+  width: 2px;
+}
+.modal-close:hover, .delete:hover, .modal-close:focus, .delete:focus {
+  background-color: rgba(10, 10, 10, 0.3);
+}
+.modal-close:active, .delete:active {
+  background-color: rgba(10, 10, 10, 0.4);
+}
+.is-small.modal-close, .is-small.delete {
+  height: 16px;
+  max-height: 16px;
+  max-width: 16px;
+  min-height: 16px;
+  min-width: 16px;
+  width: 16px;
+}
+.is-medium.modal-close, .is-medium.delete {
+  height: 24px;
+  max-height: 24px;
+  max-width: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  width: 24px;
+}
+.is-large.modal-close, .is-large.delete {
+  height: 32px;
+  max-height: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  min-width: 32px;
+  width: 32px;
+}
 
-.button.is-loading::after, .loader, .select.is-loading::after, .control.is-loading::after {
+.control.is-loading::after, .select.is-loading::after, .loader, .button.is-loading::after {
   animation: spinAround 500ms infinite linear;
   border: 2px solid #dbdbdb;
   border-radius: 290486px;
@@ -107,9 +122,10 @@
   display: block;
   height: 1em;
   position: relative;
-  width: 1em; }
+  width: 1em;
+}
 
-.is-overlay, .image.is-square img,
+.hero-video, .modal-background, .modal, .image.is-square img,
 .image.is-square .has-ratio, .image.is-1by1 img,
 .image.is-1by1 .has-ratio, .image.is-5by4 img,
 .image.is-5by4 .has-ratio, .image.is-4by3 img,
@@ -125,18 +141,19 @@
 .image.is-3by5 .has-ratio, .image.is-9by16 img,
 .image.is-9by16 .has-ratio, .image.is-1by2 img,
 .image.is-1by2 .has-ratio, .image.is-1by3 img,
-.image.is-1by3 .has-ratio, .modal, .modal-background, .hero-video {
+.image.is-1by3 .has-ratio, .is-overlay {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
-  top: 0; }
+  top: 0;
+}
 
-.button, .input, .textarea, .select select, .file-cta,
-.file-name, .pagination-previous,
+.pagination-previous,
 .pagination-next,
 .pagination-link,
-.pagination-ellipsis {
+.pagination-ellipsis, .file-cta,
+.file-name, .select select, .textarea, .input, .button {
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
@@ -153,35 +170,38 @@
   padding-right: calc(0.75em - 1px);
   padding-top: calc(0.5em - 1px);
   position: relative;
-  vertical-align: top; }
-  .button:focus, .input:focus, .textarea:focus, .select select:focus, .file-cta:focus,
-  .file-name:focus, .pagination-previous:focus,
-  .pagination-next:focus,
-  .pagination-link:focus,
-  .pagination-ellipsis:focus, .is-focused.button, .is-focused.input, .is-focused.textarea, .select select.is-focused, .is-focused.file-cta,
-  .is-focused.file-name, .is-focused.pagination-previous,
-  .is-focused.pagination-next,
-  .is-focused.pagination-link,
-  .is-focused.pagination-ellipsis, .button:active, .input:active, .textarea:active, .select select:active, .file-cta:active,
-  .file-name:active, .pagination-previous:active,
-  .pagination-next:active,
-  .pagination-link:active,
-  .pagination-ellipsis:active, .is-active.button, .is-active.input, .is-active.textarea, .select select.is-active, .is-active.file-cta,
-  .is-active.file-name, .is-active.pagination-previous,
-  .is-active.pagination-next,
-  .is-active.pagination-link,
-  .is-active.pagination-ellipsis {
-    outline: none; }
-  [disabled].button, [disabled].input, [disabled].textarea, .select select[disabled], [disabled].file-cta,
-  [disabled].file-name, [disabled].pagination-previous,
-  [disabled].pagination-next,
-  [disabled].pagination-link,
-  [disabled].pagination-ellipsis, fieldset[disabled] .button, fieldset[disabled] .input, fieldset[disabled] .textarea, fieldset[disabled] .select select, .select fieldset[disabled] select, fieldset[disabled] .file-cta,
-  fieldset[disabled] .file-name, fieldset[disabled] .pagination-previous,
-  fieldset[disabled] .pagination-next,
-  fieldset[disabled] .pagination-link,
-  fieldset[disabled] .pagination-ellipsis {
-    cursor: not-allowed; }
+  vertical-align: top;
+}
+.pagination-previous:focus,
+.pagination-next:focus,
+.pagination-link:focus,
+.pagination-ellipsis:focus, .file-cta:focus,
+.file-name:focus, .select select:focus, .textarea:focus, .input:focus, .button:focus, .is-focused.pagination-previous,
+.is-focused.pagination-next,
+.is-focused.pagination-link,
+.is-focused.pagination-ellipsis, .is-focused.file-cta,
+.is-focused.file-name, .select select.is-focused, .is-focused.textarea, .is-focused.input, .is-focused.button, .pagination-previous:active,
+.pagination-next:active,
+.pagination-link:active,
+.pagination-ellipsis:active, .file-cta:active,
+.file-name:active, .select select:active, .textarea:active, .input:active, .button:active, .is-active.pagination-previous,
+.is-active.pagination-next,
+.is-active.pagination-link,
+.is-active.pagination-ellipsis, .is-active.file-cta,
+.is-active.file-name, .select select.is-active, .is-active.textarea, .is-active.input, .is-active.button {
+  outline: none;
+}
+[disabled].pagination-previous,
+[disabled].pagination-next,
+[disabled].pagination-link,
+[disabled].pagination-ellipsis, [disabled].file-cta,
+[disabled].file-name, .select select[disabled], [disabled].textarea, [disabled].input, [disabled].button, fieldset[disabled] .pagination-previous,
+fieldset[disabled] .pagination-next,
+fieldset[disabled] .pagination-link,
+fieldset[disabled] .pagination-ellipsis, fieldset[disabled] .file-cta,
+fieldset[disabled] .file-name, fieldset[disabled] .select select, .select fieldset[disabled] select, fieldset[disabled] .textarea, fieldset[disabled] .input, fieldset[disabled] .button {
+  cursor: not-allowed;
+}
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
@@ -208,7 +228,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 h1,
 h2,
@@ -217,22 +238,27 @@ h4,
 h5,
 h6 {
   font-size: 100%;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 button,
 input,
 select,
 textarea {
-  margin: 0; }
+  margin: 0;
+}
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *, *::before, *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 img,
 video {
@@ -6961,14 +6987,42 @@ nav.navbar.my-navbar {
   background-color: #F7A61B;
   clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%); }
   nav.navbar.my-navbar .my-logo {
-    max-width: 300px; }
+    max-width: 165px;
+  }
 
-#navbarMenuHeroA .navbar-item.navbar-first-active {
+
+
+/***
+NAVBAR ------------------------------------------------------------------------------------------------------------------------------
+***/
+nav.navbar.my-navbar {
+  background-color: #F7A61B;
+}
+
+figure.image .my-logo {
+  max-width: 165px;
+  max-height: 23px;
+  width: 165px;
+}
+
+#navbarMenuHeroA .navbar-item.my-navbar-item {
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 500;
   font-family: "Raleway", sans-serif;
-  color: #FFFF; }
-  #navbarMenuHeroA .navbar-item.navbar-first-active:hover {
-    color: black; }
-  #navbarMenuHeroA .navbar-item.navbar-first-active:focus {
-    color: black; }
+  color: white;
+}
+#navbarMenuHeroA .navbar-item.my-navbar-item:hover {
+  color: black;
+}
+#navbarMenuHeroA .navbar-item.my-navbar-item:focus {
+  color: black;
+}
+
+/***
+COULEURS --------------------------------------------------------------------------------------------------------------------------
+***/
+/***
+FONTS ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+/*# sourceMappingURL=all.css.map */

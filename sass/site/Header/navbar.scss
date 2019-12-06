@@ -1,0 +1,30 @@
+/***
+NAVBAR ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+nav.navbar.my-navbar {
+    background-color: $couleurFondHeader;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
+
+}
+
+ 
+figure.image .my-logo {
+    max-width: 165px;
+    max-height: 3rem;
+    width: 165px;
+}
+
+#navbarMenuHeroA .navbar-item.my-navbar-item {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: $Raleway;
+    color: white;
+
+    &:hover{
+        color: black;
+    }
+    &:focus{
+        color: black;
+    }
+}
