@@ -9,6 +9,7 @@ $couleurFondFooter: #FEECCD;
 $grisClair: #E0E0E0;
 $grisBackground: #EEEEEE;
 $grisFonce: #333333;
+$blanc:#FFFF;
 
 /***
 FONTS ------------------------------------------------------------------------------------------------------------------------------
@@ -29,10 +30,18 @@ nav.navbar.my-navbar {
         max-width: 300px;
     }
 
-    .navbar-item .my-navbar-item {
-        font-size: 18px;
-        font-weight: 800;
-        font-family: $Raleway;
-    }
 }
 
+#navbarMenuHeroA .navbar-item.navbar-first-active {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: $Raleway;
+    color: $blanc;
+
+    &:hover{
+        color: black;
+    }
+    &focus{
+        color: black;
+    }
+}
