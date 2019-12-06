@@ -25,10 +25,12 @@ NAVBAR -------------------------------------------------------------------------
 
 nav.navbar.my-navbar {
     background-color: $couleurFondHeader;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
     
     .my-logo {
         max-width: 300px;
     }
+
 
 }
 
@@ -41,7 +43,7 @@ nav.navbar.my-navbar {
     &:hover{
         color: black;
     }
-    &focus{
+    &:focus{
         color: black;
     }
 }

@@ -6958,7 +6958,8 @@ FONTS --------------------------------------------------------------------------
 NAVBAR ------------------------------------------------------------------------------------------------------------------------------
 ***/
 nav.navbar.my-navbar {
-  background-color: #F7A61B; }
+  background-color: #F7A61B;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%); }
   nav.navbar.my-navbar .my-logo {
     max-width: 300px; }
 
@@ -6969,5 +6970,5 @@ nav.navbar.my-navbar {
   color: #FFFF; }
   #navbarMenuHeroA .navbar-item.navbar-first-active:hover {
     color: black; }
-  #navbarMenuHeroA .navbar-item.navbar-first-activefocus {
+  #navbarMenuHeroA .navbar-item.navbar-first-active:focus {
     color: black; }
