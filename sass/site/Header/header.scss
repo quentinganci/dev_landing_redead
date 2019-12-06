@@ -1,0 +1,38 @@
+/***
+COULEURS --------------------------------------------------------------------------------------------------------------------------
+***/
+
+$couleurPrimaire: #FDC735;
+$couleurSecondaire: #F07F25;
+$couleurFondHeader: #F7A61B;
+$couleurFondFooter: #FEECCD;
+$grisClair: #E0E0E0;
+$grisBackground: #EEEEEE;
+$grisFonce: #333333;
+
+/***
+FONTS ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+$Lato: 'Lato', sans-serif;
+$Raleway: 'Raleway', sans-serif;
+$Odibee: 'Odibee Sans', cursive;
+
+/***
+NAVBAR ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+nav.navbar.my-navbar {
+    background-color: $couleurFondHeader;
+    
+    .my-logo {
+        max-width: 300px;
+    }
+
+    .navbar-item .my-navbar-item {
+        font-size: 18px;
+        font-weight: 800;
+        font-family: $Raleway;
+    }
+}
+

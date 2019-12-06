@@ -4,37 +4,65 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My custom Bulma website</title>
+    <title>Briser la glace</title>
     <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Odibee+Sans|Raleway&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
 </head>
+
 <body>
-<h1 class="title">
-    Bulma
-</h1>
+    
+    <section class="hero is-fullheight">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <nav class="navbar my-navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a class="navbar-item">
+                    <figure class="image">
+                        <img src="img/svg/blg_logo_blanc.svg" alt="Logo" class="my-logo">
+                    </figure>
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item is-active">
+                    Accueil
+                  </a>
+                  <a class="navbar-item my-navbar-item">
+                    Campagne
+                  </a>
+                  <a class="navbar-item">
+                    Actualités
+                  </a>
+                  <a class="navbar-item">
+                    Association
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              BRISER LA GLACER
+            </h1>
+            <h2 class="subtitle">
+              Vos parents peuvent aller mieux grâce à l'art
+            </h2>
+          </div>
+        </div>
+      
+      </section>
 
-<p class="subtitle">
-    Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-</p>
 
-<div class="field">
-    <div class="control">
-        <input class="input" type="text" placeholder="Input">
-    </div>
-</div>
-
-<div class="field">
-    <p class="control">
-          <span class="select">
-            <select>
-              <option>Select dropdown</option>
-            </select>
-          </span>
-    </p>
-</div>
-
-<div class="buttons">
-    <a class="button is-primary">Primary</a>
-    <a class="button is-link">Link</a>
-</div>
 </body>
 </html>
