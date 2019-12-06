@@ -5,7 +5,7 @@ NAVBAR -------------------------------------------------------------------------
 nav.navbar.my-navbar {
     background-color: $couleurFondHeader;
     clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
-
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
 }
 
  
