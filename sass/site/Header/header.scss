@@ -20,28 +20,28 @@ $Raleway: 'Raleway', sans-serif;
 $Odibee: 'Odibee Sans', cursive;
 
 /***
-NAVBAR ------------------------------------------------------------------------------------------------------------------------------
+HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
 
-    #headline {
-        font-family: $Raleway;
-        color: $blanc;
+#headline {
+    font-family: $Raleway;
+    color: $blanc;
 
-        h2 {
-            font-size: 36px;
-            font-weight: 700;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        .my-cta {
-            border: none;
-            background-color: $couleurFondHeader;
-            color: $blanc;
-            border-radius: 40px;
-            font-weight: 700;
-            font-size: 24px;
-        }
+    h2 {
+        font-size: 36px;
+        font-weight: 700;
     }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .my-cta {
+        border: none;
+        background-color: $couleurFondHeader;
+        color: $blanc;
+        border-radius: 40px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}

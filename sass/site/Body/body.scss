@@ -3,23 +3,76 @@ CAMAPGNE -----------------------------------------------------------------------
 ***/
 
 section.campain {
-    background-color: #EEEEEE;
+    background-color: #FFF;
 
 }
 
 div.media-text {
     font-family: 'Raleway', sans-serif;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 500;
+    color: #E0E0E0;
     
     div {
+
         span.big {
-            font-size: 96px;
+            font-size: 64px;
             font-weight: 800;
         }
     }
 }
 
+div.media-is-left {
+    margin-right: 20px;
+}
+
+div.media-is-right {
+    margin-left: 20px;
+}
+
+div.campagne-headline {
+    border: 2px solid #F7A61B;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    h2.h2-title {
+        text-align: center;
+        background-color: #FFF;
+        position: relative;
+        top: -50px;
+        width: -webkit-max-content;
+        margin: 10px auto 0 auto;
+        padding: 0px 14px;
+    }
+
+    p.p-main {
+        line-height: 22px;
+    }
+
+    p.is-bold {
+        font-weight: 600;
+    }
+}
+
+h1#titre {
+    text-align: center;
+    background-color: #F7A61B;
+    color: #FFF;
+    font-family: 'Odibee Sans', cursive;
+    font-weight: 400;
+    width: -webkit-max-content;
+    margin: 0px auto 0px auto;
+    font-size: 48px;
+    line-height: 37px;
+}
+
+/***
+PARTAGE ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+section.explainer {
+    background-color: #E0E0E0;
+}
 
 /***
 PARTAGE ------------------------------------------------------------------------------------------------------------------------------
@@ -33,20 +86,111 @@ section.share {
     div.my-container {
         background-color: #EEEEEE;
         border-radius: 10px;
-        width: 672px;
-        justify-content: center;
+        margin: 18px auto;
+        padding-bottom: 50px;
 
         h3.share-title {
             color: #F7A61B;
             font-size: 18px;
             font-weight: 800;
             text-align: center;
-            padding-top: 12px;
+            padding-top: 8px;
             padding-bottom: 22px;
+            margin-bottom: 40px;
         }
 
         div.left-column {
             border-right: 1px solid #F7A61B;
+        }
+
+        div {
+            padding: 0px;
+            div {
+                text-align: center;
+                p {
+                    color: #F7A61B;
+                    font-weight: 800;
+                    margin-bottom: 24px;
+                }
+                .icon {
+                    width: 48px;
+                    height: 48px;
+                    padding-right: 16px;
+                }
+            }
+        }
+    }
+}
+
+/***
+BANDEAU ARTS ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+section.background {
+    background: black url(../img/svg/backgrounds/fond.svg) center / cover;
+
+    div {
+        padding: 50px 0px;
+
+        h2 {
+            font-family: 'Odibee Sans', cursive;
+            font-size: 48px;
+            color: #FFF;
+            text-align: center;
+        }
+
+        div {
+            justify-content: center;
+            div{
+                figure {
+                    img.art-icon {
+                        width: 100px;
+                        height: 80px;
+                    }
+                }
+
+                p.subtitle {
+                    font-family: 'Raleway', sans-serif;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        div {
+
+            article {
+                background-color: #FEECCD;
+                border-radius: 10px;
+                font-family: 'Raleway', sans-serif;
+                color: #FFF;
+
+                div {
+                    h3 {
+                        width: fit-content;
+                        color: #F07F25;
+                        font-size: 24px;
+                        margin: 15px auto 20px auto;
+                        padding-bottom: 16px;
+                        border-bottom: 1px solid #F07F25;
+                        font-weight: 800;
+                    }
+                    div {
+                        display: flex;
+                        justify-content: center;
+                        font-weight: 800;
+                        a {
+                            color: #FFF;
+                            padding-bottom: 18px;
+                        }
+                        &:hover {
+                            color: #F07F25;
+
+                        }
+                    }
+                }
+            }
         }
     }
 }

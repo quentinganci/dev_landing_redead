@@ -11,13 +11,13 @@
 
 <body>
     
-    <section class="hero is-fullheight">
+    <section class="hero is-fullheight" id="main">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
           <nav class="navbar my-navbar">
             <div class="container">
               <div class="navbar-brand">
-                <a class="navbar-item is-paddingless-horizontal">
+                <a class="is-paddingless-horizontal">
                     <figure class="image">
                         <img src="img/svg/blg_logo_blanc.svg" alt="Logo" class="my-logo">
                     </figure>
@@ -72,16 +72,16 @@
                 <article class="media">
                     <div class="media-content media-text">
                         <div class="content">
-                            Dans <span class="big">75%</span> des cas, l’art fait baisser le taux de cortisol (hormone du stress)
+                            Dans <span class="big">75%</span><br>des cas, l’art fait baisser le taux de cortisol (hormone du stress)
                         </div>
                     </div>
                 </article>
             </div>
-            <div class="column">
+            <div class="column is-two-fifths">
                 <article class="media">
                     <div class="media-content">
                         <div class="content">
-                            <h1>NOTRE CAMPAGNE</h1>
+                            <h1 id="titre">NOTRE CAMPAGNE</h1>
                         </div>
                     </div>
                 </article>
@@ -89,37 +89,37 @@
             <div class="column">
                 <article class="media">
                     <div class="media-content media-text">
-                        <div class="content"><span class="big">300 000</span> Français de plus de 60 ans sont en situation de <span class="big">mort sociale</span></div>
+                        <div class="content"><span class="big">300 000</span><br>Français de plus de 60 ans sont en situation de<br><span class="big">mort sociale</span></div>
                     </div>
                 </article>
             </div>
         </div>
 
-        <div class="columns">
-                <div class="column">
+        <div class="columns center">
+                <div class="column is-one-fifth">
                     <article class="media">
-                        <div class="media-content media-text">
+                        <div class="media-content media-text media-is-left">
                             <div class="content">
-                                Pour <span class="big">16%</span> des personnes âgées, le délaissement des proches est une cause d’angoisse
+                                Pour <span class="big">16%</span><br>des personnes âgées, le délaissement des proches est une cause d’angoisse
                             </div>
                         </div>
                     </article>
                 </div>
-                <div class="column">
+                <div class="column is-two-fifths">
                     <article class="media">
                         <div class="media-content">
                             <div class="content campagne-headline">
-                                <h2>Briser la glace</h2>
-                                <p>Qui de mieux que la famille pour initier les personnes âgées à l’art ?</p>
-                                <p>Un lien sacré s’est créé entre vous et votre parent, celui de la famille. Rendez-lui ce qu’il vous a apporté durant une longue période de votre vie grâce à l’art et ses bienfaits thérapeutiques.</p>
+                                <h2 class="h2-title">Briser la glace</h2>
+                                <p class="p-main is-bold">Qui de mieux que la famille pour initier les personnes âgées à l’art ?</p>
+                                <p class="p-main">Un lien sacré s’est créé entre vous et votre parent, celui de la famille. Rendez-lui ce qu’il vous a apporté durant une longue période de votre vie grâce à l’art et ses bienfaits thérapeutiques.</p>
                             </div>
                         </div>
                     </article>
                 </div>
-                <div class="column">
+                <div class="column is-one-fifth">
                     <article class="media">
-                        <div class="media-content media-text">
-                            <div class="content"><span class="big">50%</span>des séniors se font aider par leur famille</div>
+                        <div class="media-content media-text media-is-right">
+                            <div class="content"><span class="big">50%</span><br>des séniors se font aider par leur famille</div>
                         </div>
                     </article>
                 </div>
@@ -127,30 +127,91 @@
 
       </section>
 
-      <section class="explainer hero is-medium">
+      <section class="hero is-medium explainer">
         <div class="hero-body center">
             <div class="container">
-                <img src="https://via.placeholder.com/1000x500" alt="Explainer">
             </div>       
         </div>
       </section>
 
       <section class="share">
-        <div class="container my-container">
-            <h3 class="share-title">Partager sur vos réseaux</h3>
+        <div class="columns is-mobile">
+            <div class="column box is-half my-container">
+                <h3 class="share-title">Partager sur vos réseaux</h3>
+                <div class="columns">
+                    <div class="column left-column">
+                        <p>Titre pub de campagne</p>
+                        <img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon">
+                        <img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon">
+                        <img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon">
+                    </div>
+                    <div class="column">
+                        <p>Titre explainer video</p>
+                        <img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon">
+                        <img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon">
+                        <img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="hero is-medium background">
+        <div class="hero-body is-paddingless">
+            <h2>Quel art vous inspire le plus ?</h2>
             <div class="columns">
-                <div class="column left-column">
-                    <p>Titre pub de campagne</p>
-                    <img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon">
-                    <img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon">
-                    <img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon">
+                <div class="column is-1">
+                    <figure><img src="img/svg/photographie_picto.svg" alt="pictoPhotographieBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Photographie</p>
                 </div>
-                <div class="column">
-                    <p>Titre explainer video</p>
-                    <img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon">
-                    <img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon">
-                    <img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon">
+                <div class="column is-1">
+                    <figure><img src="img/svg/peinture_picto.svg" alt="pictoPeintureBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Peinture</p>
                 </div>
+                <div class="column is-1">
+                    <figure><img src="img/svg/cinema_picto.svg" alt="pictoCinemaBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Cinéma</p>
+                </div>
+                <div class="column is-1">
+                    <figure><img src="img/svg/" alt="pictoDanseBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Danse</p>
+                </div>
+                <div class="column is-1">
+                    <figure><img src="img/svg/theatre_picto.svg" alt="pictoTheatreBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Théâtre</p>
+                </div>
+                <div class="column is-1">
+                    <figure><img src="img/svg/scene_picto.svg" alt="pictoSceneBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Scène</p>
+                </div>
+                <div class="column is-1">
+                    <figure><img src="img/svg/musique_picto.svg" alt="pictoMusiqueBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Musique</p>
+                </div>
+                <div class="column is-1">
+                    <figure><img src="img/svg/architecture_picto.svg" alt="pictoArchitectureBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Architecture</p>
+                </div>
+                <div class="column is-1">
+                    <figure><img src="img/svg/litterature_picto.svg" alt="pictoArchitectureBlanc" class="art-icon"></figure>
+                    <p class="subtitle">Littérature</p>
+                </div>
+            </div>
+            <div class="columns">
+                <article class="column is-narrow">
+                    <div>
+                        <h3>à partager avec vos aînés</h3>
+                        <div class="container">
+                            <a href="#">Cher trésor - Théatre comédie française</a>
+                            <a href="#">Acheter des dvd</a>
+                            <a href="#">L'Heureux Elu - théatre comédie française</a>
+                        </div>
+                        <div class="container">
+                            <a href="#">Programme télé - pièce de théâtre</a>
+                            <a href="#">Pièces de théâtre à voir dans Paris</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
       </section>

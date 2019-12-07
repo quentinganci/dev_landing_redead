@@ -2,6 +2,10 @@
 NAVBAR ------------------------------------------------------------------------------------------------------------------------------
 ***/
 
+section#main {
+    background-color: #EEEEEE;
+}
+
 nav.navbar.my-navbar {
     background-color: $couleurFondHeader;
     clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
@@ -11,7 +15,7 @@ nav.navbar.my-navbar {
  
 figure.image .my-logo {
     max-width: 165px;
-    max-height: 3rem;
+    max-height: 5rem;
     width: 165px;
 }
 
@@ -20,9 +24,12 @@ figure.image .my-logo {
     font-weight: 500;
     font-family: $Raleway;
     color: white;
+    padding-top: 0;
 
     &:hover{
         color: black;
+        background-color: none;
+        font-weight: 800;
     }
     &:focus{
         color: black;

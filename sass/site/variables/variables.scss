@@ -19,3 +19,16 @@ $Lato: 'Lato', sans-serif;
 $Raleway: 'Raleway', sans-serif;
 $Odibee: 'Odibee Sans', cursive;
 
+/***
+GLOBAL ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }

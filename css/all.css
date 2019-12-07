@@ -9344,17 +9344,66 @@ label.panel-block:hover {
 CAMAPGNE ------------------------------------------------------------------------------------------------------------------------------
 ***/
 section.campain {
-  background-color: #EEEEEE;
+  background-color: #FFF;
 }
 
 div.media-text {
   font-family: "Raleway", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 500;
+  color: #E0E0E0;
 }
 div.media-text div span.big {
-  font-size: 96px;
+  font-size: 64px;
   font-weight: 800;
+}
+
+div.media-is-left {
+  margin-right: 20px;
+}
+
+div.media-is-right {
+  margin-left: 20px;
+}
+
+div.campagne-headline {
+  border: 2px solid #F7A61B;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+div.campagne-headline h2.h2-title {
+  text-align: center;
+  background-color: #FFF;
+  position: relative;
+  top: -50px;
+  width: -webkit-max-content;
+  margin: 10px auto 0 auto;
+  padding: 0px 14px;
+}
+div.campagne-headline p.p-main {
+  line-height: 22px;
+}
+div.campagne-headline p.is-bold {
+  font-weight: 600;
+}
+
+h1#titre {
+  text-align: center;
+  background-color: #F7A61B;
+  color: #FFF;
+  font-family: "Odibee Sans", cursive;
+  font-weight: 400;
+  width: -webkit-max-content;
+  margin: 0px auto 0px auto;
+  font-size: 48px;
+  line-height: 37px;
+}
+
+/***
+PARTAGE ------------------------------------------------------------------------------------------------------------------------------
+***/
+section.explainer {
+  background-color: #E0E0E0;
 }
 
 /***
@@ -9368,19 +9417,90 @@ section.share {
 section.share div.my-container {
   background-color: #EEEEEE;
   border-radius: 10px;
-  width: 672px;
-  justify-content: center;
+  margin: 18px auto;
+  padding-bottom: 50px;
 }
 section.share div.my-container h3.share-title {
   color: #F7A61B;
   font-size: 18px;
   font-weight: 800;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 8px;
   padding-bottom: 22px;
+  margin-bottom: 40px;
 }
 section.share div.my-container div.left-column {
   border-right: 1px solid #F7A61B;
+}
+section.share div.my-container div {
+  padding: 0px;
+}
+section.share div.my-container div div {
+  text-align: center;
+}
+section.share div.my-container div div p {
+  color: #F7A61B;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+section.share div.my-container div div .icon {
+  width: 48px;
+  height: 48px;
+  padding-right: 16px;
+}
+
+/***
+BANDEAU ARTS ------------------------------------------------------------------------------------------------------------------------------
+***/
+section.background {
+  background: black url(../img/svg/backgrounds/fond.svg) center/cover;
+  padding: 50px 0px;
+}
+section.background div h2 {
+  font-family: "Odibee Sans", cursive;
+  font-size: 48px;
+  color: #FFF;
+  text-align: center;
+}
+section.background div div {
+  justify-content: center;
+}
+section.background div div div figure img.art-icon {
+  width: 100px;
+  height: 80px;
+}
+section.background div div div p.subtitle {
+  font-family: "Raleway", sans-serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+}
+section.background div div article {
+  background-color: #FEECCD;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: #FFF;
+}
+section.background div div article div h3 {
+  width: fit-content;
+  color: #F07F25;
+  font-size: 24px;
+  margin: 15px auto 20px auto;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #F07F25;
+  font-weight: 800;
+}
+section.background div div article div div {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+section.background div div article div div a {
+  color: #FFF;
+  padding-bottom: 18px;
+}
+section.background div div article div div:hover {
+  color: #F07F25;
 }
 
 /***
@@ -9390,7 +9510,7 @@ COULEURS -----------------------------------------------------------------------
 FONTS ------------------------------------------------------------------------------------------------------------------------------
 ***/
 /***
-NAVBAR ------------------------------------------------------------------------------------------------------------------------------
+HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
 #headline {
   font-family: "Raleway", sans-serif;
@@ -9415,6 +9535,10 @@ NAVBAR -------------------------------------------------------------------------
 /***
 NAVBAR ------------------------------------------------------------------------------------------------------------------------------
 ***/
+section#main {
+  background-color: #EEEEEE;
+}
+
 nav.navbar.my-navbar {
   background-color: #F7A61B;
   clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
@@ -9423,7 +9547,7 @@ nav.navbar.my-navbar {
 
 figure.image .my-logo {
   max-width: 165px;
-  max-height: 3rem;
+  max-height: 5rem;
   width: 165px;
 }
 
@@ -9432,9 +9556,12 @@ figure.image .my-logo {
   font-weight: 500;
   font-family: "Raleway", sans-serif;
   color: white;
+  padding-top: 0;
 }
 #navbarMenuHeroA .navbar-item.my-navbar-item:hover {
   color: black;
+  background-color: none;
+  font-weight: 800;
 }
 #navbarMenuHeroA .navbar-item.my-navbar-item:focus {
   color: black;
@@ -9446,5 +9573,29 @@ COULEURS -----------------------------------------------------------------------
 /***
 FONTS ------------------------------------------------------------------------------------------------------------------------------
 ***/
+/***
+GLOBAL ------------------------------------------------------------------------------------------------------------------------------
+***/
+.center, .center-column, .top, .right, .bottom, .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  align-items: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+.left {
+  justify-content: flex-start;
+}
 
 /*# sourceMappingURL=all.css.map */
