@@ -9444,8 +9444,8 @@ section.share div.my-container div div p {
   margin-bottom: 24px;
 }
 section.share div.my-container div div .icon {
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
   padding-right: 16px;
 }
 
@@ -9454,34 +9454,41 @@ BANDEAU ARTS -------------------------------------------------------------------
 ***/
 section.background {
   background: black url(../img/svg/backgrounds/fond.svg) center/cover;
-  padding: 50px 0px;
 }
-section.background div h2 {
+section.background div#inspiration {
+  padding-top: 26px;
+  padding-bottom: 50px;
+}
+section.background div#inspiration h2 {
   font-family: "Odibee Sans", cursive;
   font-size: 48px;
   color: #FFF;
   text-align: center;
 }
-section.background div div {
+section.background div#inspiration div {
   justify-content: center;
+  padding: 16px 0px 0px 0px;
 }
-section.background div div div figure img.art-icon {
+section.background div#inspiration div div figure img.art-icon {
   width: 100px;
   height: 80px;
 }
-section.background div div div p.subtitle {
+section.background div#inspiration div div p.subtitle {
   font-family: "Raleway", sans-serif;
   color: #FFF;
   text-align: center;
   font-size: 16px;
 }
-section.background div div article {
-  background-color: #FEECCD;
+section.background div#inspiration div article {
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
   font-family: "Raleway", sans-serif;
   color: #FFF;
 }
-section.background div div article div h3 {
+section.background div#inspiration div article div {
+  padding: 10px 0px 10px 0px;
+}
+section.background div#inspiration div article div h3 {
   width: fit-content;
   color: #F07F25;
   font-size: 24px;
@@ -9490,31 +9497,26 @@ section.background div div article div h3 {
   border-bottom: 1px solid #F07F25;
   font-weight: 800;
 }
-section.background div div article div div {
+section.background div#inspiration div article div div {
   display: flex;
-  justify-content: center;
   font-weight: 800;
+  justify-content: center;
+  padding: 10px;
 }
-section.background div div article div div a {
+section.background div#inspiration div article div div a {
   color: #FFF;
   padding-bottom: 18px;
 }
-section.background div div article div div:hover {
+section.background div#inspiration div article div div:hover {
   color: #F07F25;
 }
 
-/***
-COULEURS --------------------------------------------------------------------------------------------------------------------------
-***/
-/***
-FONTS ------------------------------------------------------------------------------------------------------------------------------
-***/
 /***
 HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
 #headline {
   font-family: "Raleway", sans-serif;
-  color: #FFFF;
+  color: #FFF;
 }
 #headline h2 {
   font-size: 36px;
@@ -9526,10 +9528,13 @@ HEADER -------------------------------------------------------------------------
 #headline .my-cta {
   border: none;
   background-color: #F7A61B;
-  color: #FFFF;
+  color: #FFF;
   border-radius: 40px;
   font-weight: 700;
   font-size: 24px;
+}
+#headline .scrollPicto {
+  display: inline;
 }
 
 /***
@@ -9555,16 +9560,16 @@ figure.image .my-logo {
   font-size: 18px;
   font-weight: 500;
   font-family: "Raleway", sans-serif;
-  color: white;
+  color: #FFF;
   padding-top: 0;
 }
 #navbarMenuHeroA .navbar-item.my-navbar-item:hover {
-  color: black;
-  background-color: none;
+  color: #000;
+  background-color: #F7A61B;
   font-weight: 800;
 }
 #navbarMenuHeroA .navbar-item.my-navbar-item:focus {
-  color: black;
+  color: #000;
 }
 
 /***

@@ -7,7 +7,7 @@ section#main {
 }
 
 nav.navbar.my-navbar {
-    background-color: $couleurFondHeader;
+    background-color: #F7A61B;
     clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
 }
@@ -22,16 +22,16 @@ figure.image .my-logo {
 #navbarMenuHeroA .navbar-item.my-navbar-item {
     font-size: 18px;
     font-weight: 500;
-    font-family: $Raleway;
-    color: white;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
     padding-top: 0;
 
     &:hover{
-        color: black;
-        background-color: none;
+        color: #000;
+        background-color: #F7A61B;
         font-weight: 800;
     }
     &:focus{
-        color: black;
+        color: #000;
     }
 }

@@ -1,31 +1,10 @@
 /***
-COULEURS --------------------------------------------------------------------------------------------------------------------------
-***/
-
-$couleurPrimaire: #FDC735;
-$couleurSecondaire: #F07F25;
-$couleurFondHeader: #F7A61B;
-$couleurFondFooter: #FEECCD;
-$grisClair: #E0E0E0;
-$grisBackground: #EEEEEE;
-$grisFonce: #333333;
-$blanc:#FFFF;
-
-/***
-FONTS ------------------------------------------------------------------------------------------------------------------------------
-***/
-
-$Lato: 'Lato', sans-serif;
-$Raleway: 'Raleway', sans-serif;
-$Odibee: 'Odibee Sans', cursive;
-
-/***
 HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
 
 #headline {
-    font-family: $Raleway;
-    color: $blanc;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
 
     h2 {
         font-size: 36px;
@@ -38,10 +17,14 @@ HEADER -------------------------------------------------------------------------
 
     .my-cta {
         border: none;
-        background-color: $couleurFondHeader;
-        color: $blanc;
+        background-color: #F7A61B;
+        color: #FFF;
         border-radius: 40px;
         font-weight: 700;
         font-size: 24px;
+    }
+
+    .scrollPicto {
+        display: inline;
     }
 }
