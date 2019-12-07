@@ -7,6 +7,19 @@
     <title>Briser la glace</title>
     <link rel="stylesheet" href="css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Odibee+Sans|Raleway&display=swap" rel="stylesheet">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=<APP_ID>&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </head>
 
 <body>
@@ -62,12 +75,10 @@
                 <img src="img/svg/arrow_down_white.svg" alt="flecheBas">
             </a>
           </div>
-
-          <figure class="scrollPicto">
-              <img src="img/svg/souris_scroll.svg" alt="scrollPicto">
-          </figure>
         </div>
-      
+            <figure id="scrollPicto">
+              <img src="img/svg/souris_scroll.svg" alt="scrollPicto">
+            </figure>
       </section>
 
       <section class="campain">
@@ -82,13 +93,7 @@
                 </article>
             </div>
             <div class="column is-two-fifths">
-                <article class="media">
-                    <div class="media-content">
-                        <div class="content">
-                            <h1 id="titre">NOTRE CAMPAGNE</h1>
-                        </div>
-                    </div>
-                </article>
+                <img src="img/svg/notre_campagne_title.svg" alt="h1-campain-svg">
             </div>
             <div class="column">
                 <article class="media">
@@ -145,15 +150,15 @@
                 <div class="columns">
                     <div class="column left-column">
                         <p>Titre pub de campagne</p>
-                        <img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon">
-                        <img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon">
-                        <img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon">
+                        <a href="https://www.facebook.com/briserlaglace.reborn/"><img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon"></a>
+                        <a href="https://twitter.com/BLG_by_reborn"><img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon"></a>
+                        <a href="https://www.linkedin.com/company/briser-la-glace-by-reborn"><img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon"></a>
                     </div>
                     <div class="column">
                         <p>Titre explainer video</p>
-                        <img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon">
-                        <img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon">
-                        <img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon">
+                        <a href="https://www.facebook.com/briserlaglace.reborn/"><img src="img/svg/facebook_logo_black.svg" alt="facebookBlack" class="icon"></a>
+                        <a href="https://twitter.com/BLG_by_reborn"><img src="img/svg/twitter_logo_black.svg" alt="twitterBlack" class="icon"></a>
+                        <a href="https://www.linkedin.com/company/briser-la-glace-by-reborn"><img src="img/svg/gmail_logo_black.svg" alt="gmailBlack" class="icon"></a>
                     </div>
                 </div>
             </div>
@@ -165,7 +170,7 @@
             <h2>Quel art vous inspire le plus ?</h2>
             <div class="columns">
                 <div class="column is-1">
-                    <figure><img src="img/svg/white_art_logos/photographie_picto.svg" alt="pictoPhotographieBlanc" class="art-icon"></figure>
+                    <figure><img src="img/svg/white_art_logos/photgraphie_picto.svg" alt="pictoPhotographieBlanc" class="art-icon"></figure>
                     <p class="subtitle">Photographie</p>
                 </div>
                 <div class="column is-1">
@@ -222,13 +227,44 @@
 
       <section class="networks">
         <h2>Suivez l'actualité de notre campagne</h2>
+        <div class="columns">
+            <article class="column is-one-third">
+                <a class="twitter-timeline"
+                    href="https://twitter.com/BLG_by_reborn">
+                    Tweets by @BLG_by_reborn
+                </a>
+            </article>
+            <article class="column is-one-third">
+                <!--Your Group Plugin for the Web code-->
+                <div class="fb-group" 
+                    data-href="https://www.facebook.com/briserlaglace.reborn/" 
+                    data-width="280" 
+                    data-show-social-context="true" 
+                    data-show-metadata="false">
+                </div>
+            </article>
+        </div>   
+        <p class="hashtag">#BRISERLAGLACE</p>
       </section>
 
       <section class="association level">
-          <figure>
-              <img src="" alt="">
+          <figure class="level-left">
+              <img src="img/svg/logo_reborn_footer.svg" alt="logoReborn" class="logoReborn">
           </figure>
-
+          <article class="">
+                <h2>Notre association</h2>
+                <p>A travers l’art, nous voulons accompagner le troisième âge et améliorer leurs conditions de vie.</p>
+                <a href="#" id="asso-cta">En savoir plus</a>
+          </article>
       </section>
+
+      <footer class="level">
+        <a href="#" class="level-left">Presse</a>
+        <a href="#" class="level-left">Mentions légales</a>
+        <a href="#" class="level-item">© Reborn 2019</a>
+        <p class="level-right">Nous suivre</p>
+        <a href="#" class="level-right"><img src="img/svg/facebook_logo_white.svg" alt="facebookLogoBlanc"></a>
+        <a href="#" class="level-right"><img src="img/svg/twitter_logo_white.svg" alt="TwitterLogoBlanc"></a>
+      </footer>
 </body>
 </html>

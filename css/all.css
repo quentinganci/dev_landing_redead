@@ -9387,18 +9387,6 @@ div.campagne-headline p.is-bold {
   font-weight: 600;
 }
 
-h1#titre {
-  text-align: center;
-  background-color: #F7A61B;
-  color: #FFF;
-  font-family: "Odibee Sans", cursive;
-  font-weight: 400;
-  width: -webkit-max-content;
-  margin: 0px auto 0px auto;
-  font-size: 48px;
-  line-height: 37px;
-}
-
 /***
 PARTAGE ------------------------------------------------------------------------------------------------------------------------------
 ***/
@@ -9443,7 +9431,7 @@ section.share div.my-container div div p {
   font-weight: 800;
   margin-bottom: 24px;
 }
-section.share div.my-container div div .icon {
+section.share div.my-container div div a .icon {
   width: 58px;
   height: 58px;
   padding-right: 16px;
@@ -9466,7 +9454,7 @@ section.background div#inspiration h2 {
   text-align: center;
 }
 section.background div#inspiration div {
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 16px 0px 0px 0px;
 }
 section.background div#inspiration div div figure img.art-icon {
@@ -9512,18 +9500,86 @@ section.background div#inspiration div article div div:hover {
 }
 
 /***
+ACTU CAMPAGNE ------------------------------------------------------------------------------------------------------------------------------
+***/
+section.networks h2 {
+  font-family: "Odibee Sans", cursive;
+  font-size: 48px;
+  color: #F7A61B;
+  text-align: center;
+  padding-top: 28px;
+}
+section.networks div.column {
+  display: flex;
+  justify-content: center;
+}
+section.networks p.hashtag {
+  font-size: 24px;
+  font-weight: 700;
+  color: #C4C4C4;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+/***
+ASSOCIATION ------------------------------------------------------------------------------------------------------------------------------
+***/
+section.association {
+  background-color: #FEECCD;
+  font-family: "Raleway", sans-serif;
+  border-top: 2px solid #F7A61B;
+  padding: 16px 12px 5rem 12px;
+  text-align: center;
+}
+section.association figure img.logoReborn {
+  width: 170px;
+}
+section.association p {
+  margin: 0px auto 3rem auto;
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 60%;
+}
+section.association h2 {
+  font-family: "Odibee Sans", cursive;
+  font-size: 48px;
+  color: #F7A61B;
+  text-align: center;
+  padding-top: 28px;
+  margin-bottom: 3rem;
+}
+section.association article a#asso-cta {
+  color: white;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  background-color: #F7A61B;
+  padding: 10px 28px;
+  margin: 8px 0px;
+  font-weight: 700;
+}
+
+/***
+FOOTER ------------------------------------------------------------------------------------------------------------------------------
+***/
+footer {
+  background-color: #333333;
+}
+footer a {
+  font-size: 12px;
+  color: #FFF;
+}
+
+/***
 HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
 #headline {
   font-family: "Raleway", sans-serif;
   color: #FFF;
+  margin-top: 12rem;
 }
 #headline h2 {
   font-size: 36px;
-  font-weight: 700;
-}
-#headline h2 {
-  font-size: 24px;
+  font-weight: 900;
 }
 #headline .my-cta {
   border: none;
@@ -9532,9 +9588,13 @@ HEADER -------------------------------------------------------------------------
   border-radius: 40px;
   font-weight: 700;
   font-size: 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
-#headline .scrollPicto {
-  display: inline;
+
+figure#scrollPicto {
+  /*display: flex;
+  justify-content: center;*/
+  margin: 0px auto 20px auto;
 }
 
 /***
@@ -9562,9 +9622,9 @@ figure.image .my-logo {
   font-family: "Raleway", sans-serif;
   color: #FFF;
   padding-top: 0;
+  padding-bottom: 16px;
 }
 #navbarMenuHeroA .navbar-item.my-navbar-item:hover {
-  color: #000;
   background-color: #F7A61B;
   font-weight: 800;
 }
