@@ -7261,7 +7261,8 @@ HEADER -------------------------------------------------------------------------
   height: 1028px;
   background: #FFFFFF;
   clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%);
-  -webkit-clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%); }
+  -webkit-clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%);
+  transform: rotate(-180deg); }
 
 #headline {
   font-family: 'Raleway', sans-serif;
