@@ -7,21 +7,8 @@
     <title>Briser la glace</title>
     <link rel="stylesheet" href="css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Odibee+Sans|Raleway&display=swap" rel="stylesheet">
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="./js/script.js"></script>
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=<APP_ID>&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 </head>
 
 <body>
@@ -66,7 +53,7 @@
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
           <div class="container" id="headline">
-            <h2 class="title">
+            <h2 class="title headline">
               BRISER LA GLACE
             </h2>
             <p class="subtitle">
@@ -212,7 +199,7 @@
             <div class="columns">
                 <article class="column is-narrow">
                     <div>
-                        <h3>à partager avec vos aînés</h3>
+                        <h3>À partager avec vos aînés</h3>
                         <div class="">
                             <a href="#">Cher trésor - Théatre comédie française</a>
                             <a href="#">Acheter des dvd</a>
@@ -267,4 +254,19 @@
         <a href="https://twitter.com/BLG_by_reborn" class="level-right"><img src="img/svg/twitter_logo_white.svg" alt="TwitterLogoBlanc"></a>
       </footer>
 </body>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/script.js"></script>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=<APP_ID>&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 </html>
