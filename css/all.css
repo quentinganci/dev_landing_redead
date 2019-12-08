@@ -7236,16 +7236,18 @@ footer {
 /***
 HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
-#left-block {
+.block-wrap {
   position: absolute;
+  left: -6px;
+  top: 377px;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25)); }
+
+.left-block {
   width: 123px;
   height: 1028px;
-  left: -6px;
-  top: 478px;
   background: #FF8202;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%); }
+  clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%); }
 
 #headline {
   font-family: 'Raleway', sans-serif;
