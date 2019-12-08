@@ -6,6 +6,11 @@ section#main {
     background-color: #EEEEEE;
 }
 
+.wrap-section-association{
+    filter: drop-shadow(-4px -4px 0px rgba(247, 166, 27, 100));
+}
+
+
 nav.navbar.my-navbar {
     background-color: #F7A61B;
     clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100%);

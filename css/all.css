@@ -7178,10 +7178,11 @@ ASSOCIATION --------------------------------------------------------------------
 section.association {
   background-color: #FEECCD;
   font-family: 'Raleway', sans-serif;
-  border-top: 2px solid #F7A61B;
   padding: 16px 12px 5rem 12px;
   text-align: center;
-  margin-bottom: 0px !important; }
+  margin-bottom: 0px !important;
+  clip-path: polygon(0% 8%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0% 8%, 100% 0%, 100% 100%, 0% 100%); }
   section.association img.logoReborn {
     width: 170px;
     position: relative; }
@@ -7260,8 +7261,7 @@ HEADER -------------------------------------------------------------------------
   height: 1028px;
   background: #FFFFFF;
   clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%);
-  -webkit-clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%);
-  transform: rotate(-180deg); }
+  -webkit-clip-path: polygon(0% 0%, 0% 0%, 95% 17%, 0% 100%); }
 
 #headline {
   font-family: 'Raleway', sans-serif;
@@ -7289,6 +7289,9 @@ NAVBAR -------------------------------------------------------------------------
 ***/
 section#main {
   background-color: #EEEEEE; }
+
+.wrap-section-association {
+  filter: drop-shadow(-4px -4px 0px #f7a61b); }
 
 nav.navbar.my-navbar {
   background-color: #F7A61B;
