@@ -9536,8 +9536,7 @@ section.background div#inspiration div div figure img.art-icon {
   height: 80px;
 }
 section.background div#inspiration div div figure img.art-icon:hover {
-  width: 125px;
-  height: 100px;
+  transform: scale(1);
 }
 section.background div#inspiration div div p.subtitle {
   font-family: "Raleway", sans-serif;

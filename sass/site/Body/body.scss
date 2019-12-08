@@ -156,8 +156,7 @@ section.background {
                         height: 80px;
 
                         &:hover {
-                            width: 125px;
-                            height: 100px;
+                            transform: scale(1);
                         }
                     }
                 }
