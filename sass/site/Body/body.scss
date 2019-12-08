@@ -127,6 +127,10 @@ section.share {
 BANDEAU ARTS ------------------------------------------------------------------------------------------------------------------------------
 ***/
 
+
+
+
+
 section.background {
     background: black url(../img/svg/backgrounds/fond.svg) center / cover;
 
@@ -146,11 +150,14 @@ section.background {
             padding: 16px 0px 0px 0px;
             div{
                 figure {
+                    text-align: center;
                     img.art-icon {
                         width: 100px;
                         height: 80px;
                     }
                 }
+
+
 
                 p.subtitle {
                     font-family: 'Raleway', sans-serif;
@@ -158,6 +165,7 @@ section.background {
                     text-align: center;
                     font-size: 16px;
                 }
+
             }
         }
 

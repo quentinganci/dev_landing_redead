@@ -7113,9 +7113,11 @@ section.background {
     section.background div#inspiration div {
       justify-content: space-evenly;
       padding: 16px 0px 0px 0px; }
-      section.background div#inspiration div div figure img.art-icon {
-        width: 100px;
-        height: 80px; }
+      section.background div#inspiration div div figure {
+        text-align: center; }
+        section.background div#inspiration div div figure img.art-icon {
+          width: 100px;
+          height: 80px; }
       section.background div#inspiration div div p.subtitle {
         font-family: 'Raleway', sans-serif;
         color: #FFF;
