@@ -7236,6 +7236,11 @@ footer {
 /***
 HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
+#left-block {
+  background-color: black;
+  width: 400px;
+  height: 230px; }
+
 #headline {
   font-family: 'Raleway', sans-serif;
   color: #FFF;
