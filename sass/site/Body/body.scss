@@ -154,6 +154,11 @@ section.background {
                     img.art-icon {
                         width: 100px;
                         height: 80px;
+
+                        &:hover {
+                            width: 125px;
+                            height: 100px;
+                        }
                     }
                 }
 
