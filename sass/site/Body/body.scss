@@ -128,9 +128,6 @@ BANDEAU ARTS -------------------------------------------------------------------
 ***/
 
 
-
-
-
 section.background {
     background: black url(../img/svg/backgrounds/fond.svg) center / cover;
 
@@ -151,12 +148,20 @@ section.background {
             div{
                 figure {
                     text-align: center;
+
                     img.art-icon {
                         width: 100px;
                         height: 80px;
+
+                        &.grow {
+                            transition: all .2s ease-in-out;
+
+                            &:hover {
+                                transform: scale(1.2);
+                            }
+                        }
                     }
                 }
-
 
 
                 p.subtitle {
