@@ -8,7 +8,7 @@ section.campain {
 
 }
 
-div.media-text {
+.media-text {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -65,7 +65,7 @@ div.campagne-headline {
 
 
 /***
-PARTAGE ------------------------------------------------------------------------------------------------------------------------------
+EXPLAINER ------------------------------------------------------------------------------------------------------------------------------
 ***/
 
 section.explainer {
@@ -77,50 +77,29 @@ PARTAGE ------------------------------------------------------------------------
 ***/
 
 section.share {
-    background-color: #FEECCD;
+    padding: 28px;
     font-family: 'Raleway', sans-serif;
-    padding: 12px 0px;
 
-    div.my-container {
-        background-color: #EEEEEE;
-        border-radius: 10px;
-        margin: 18px auto;
-        padding-bottom: 50px;
-
-        h3.share-title {
-            color: #F7A61B;
-            font-size: 18px;
-            font-weight: 800;
-            text-align: center;
-            padding-top: 8px;
-            padding-bottom: 22px;
-            margin-bottom: 40px;
-        }
-
-        div.left-column {
-            border-right: 1px solid #F7A61B;
-        }
-
-        div {
-            padding: 0px;
-            div {
-                text-align: center;
-                p {
-                    color: #F7A61B;
-                    font-weight: 800;
-                    margin-bottom: 24px;
-                }
-                a {
-                    
-                    .icon {
-                        width: 58px;
-                        height: 58px;
-                        padding-right: 16px;
-                    }
-                }
-            }
-        }
+    .center-vertical {
+        display: flex;
+        align-items: center;
     }
+
+    .orange-center {
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        color: #F07F25;
+        text-align: center;
+        margin: 0 16px;
+    }
+
+    
+    .big {
+        font-size: 64px;
+        font-weight: 900;
+    }
+    
 }
 
 /***
@@ -202,10 +181,11 @@ section.background {
                         a {
                             color: #FFF;
                             padding-bottom: 18px;
-                        }
-                        &:hover {
+                            text-align: center;
+                            &:hover {
                             color: #F07F25;
 
+                            }
                         }
                     }
                 }
@@ -219,12 +199,15 @@ ACTU CAMPAGNE ------------------------------------------------------------------
 ***/
 
 section.networks {
+    padding-bottom: 28px;
+
     h2 {
         font-family: 'Odibee Sans', cursive;
         font-size: 48px;
         color: #F7A61B;
         text-align: center;
         padding-top: 28px;
+        margin-bottom: 28px;
     }
 
     div.columns {
@@ -239,6 +222,52 @@ section.networks {
         color: #C4C4C4;
         font-family: 'Raleway', sans-serif;
         text-align: center;
+    }
+}
+
+div.my-container {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    margin: 18px auto;
+    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+
+    h3.share-title {
+        color: #F7A61B;
+        font-size: 18px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 22px;
+        margin-bottom: 40px;
+    }
+
+    div.left-column {
+        border-right: 1px solid #F7A61B;
+    }
+
+    div {
+        padding: 0px;
+        div {
+            text-align: center;
+            p {
+                color: #F7A61B;
+                font-weight: 800;
+                margin-bottom: 24px;
+            }
+            a {
+                
+                .icon {
+                    width: 58px;
+                    height: 58px;
+                    padding-right: 16px;
+                }
+
+                #gmail-icon {
+                    padding-right: 0px;
+                }
+            }
+        }
     }
 }
 
