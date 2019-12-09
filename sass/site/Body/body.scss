@@ -5,7 +5,9 @@ CAMAPGNE -----------------------------------------------------------------------
 section.campain {
     background-color: #FFF;
     padding: 3rem 0px;
-
+    @media (min-width: 1500px) { 
+        margin-top: 124px;
+     }
 }
 
 section#main{
@@ -43,6 +45,14 @@ div.media-is-right {
     margin-left: 20px;
 }
 
+div#cortisol {
+    margin-left: 3rem;
+}
+
+div#francais {
+    margin-right: 3rem;
+}
+
 div.campagne-headline {
     border: 2px solid #F7A61B;
     padding: 20px;
@@ -66,6 +76,7 @@ div.campagne-headline {
         font-weight: 600;
     }
 }
+
 
 
 /***
@@ -364,5 +375,6 @@ footer {
     p {
         @extend a;
         margin-right: 1.5rem;
+        margin-left: 62px;
     }
 }
