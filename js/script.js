@@ -238,16 +238,19 @@ $('body').append(
             '            En poursuivant votre navigation, vous acceptez l’utilisation des cookies permettant\n' +
             '            de réaliser des études d’audience et suivis facebook et twtiter.\n' +
             '            <a target="_blank" href="mentions-legales.html">En savoir plus</a>\n' +
-            // '                <div class="btn-cookie-container">\n' +
-            // '                    <button id="#btn-cookie" class="button is-success is-rounded button-cookie">\n' +
-            // '                        <span>OK</span>\n' +
-            // '                    </button>\n' +
-            // '                </div>\n' +
-            // '\n' +
+            '                <div class="btn-cookie-container">\n' +
+            '                    <button id="#btn-cookie" class="button is-success is-rounded button-cookie">\n' +
+            '                        <span>OK</span>\n' +
+            '                    </button>\n' +
+            '                </div>\n' +
+            '\n' +
             '        </div>\n' +
             '    </section>'
         );
 
-
+// Disable cookie on click ok
+$( ".btn-cookie-container" ).click(function() {
+    $( ".cookie" ).hide();
+});
 
 
