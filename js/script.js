@@ -1,4 +1,4 @@
-//ScrollReveal
+//Animations
 ScrollReveal().reveal('.headline', {
     easing: 'ease-in',
     duration: 500,
@@ -179,8 +179,7 @@ ScrollReveal().reveal('section.association p', {
     duration: 500,
     reset: true
 });
-
-
+//END OF ANIMATION
 
 
 
@@ -231,8 +230,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-        $('body').append(
+// Cookie, inject in javascript
+$('body').append(
             '<section class="cookie">\n' +
             '        <div class="notification cookie_alert">\n' +
             '            <button class="delete"></button>\n' +
