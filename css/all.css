@@ -7351,6 +7351,9 @@ figure#scrollPicto {
   border-radius: 0; }
   .cookie_alert a, .cookie_alert footer p, footer .cookie_alert p {
     color: #F7A61B; }
+  .cookie_alert .btn-cookie-container {
+    display: inline-flex;
+    margin-left: 17px; }
 
 /***
 NAVBAR ------------------------------------------------------------------------------------------------------------------------------

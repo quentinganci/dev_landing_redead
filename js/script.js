@@ -48,3 +48,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
+        $('body').append(
+            '<section class="cookie">\n' +
+            '        <div class="notification cookie_alert">\n' +
+            '            <button class="delete"></button>\n' +
+            '            En poursuivant votre navigation, vous acceptez l’utilisation des cookies permettant\n' +
+            '            de réaliser des études d’audience et suivis facebook et twtiter.\n' +
+            '            <a target="_blank" href="mentions-legales.html">En savoir plus</a>\n' +
+            // '                <div class="btn-cookie-container">\n' +
+            // '                    <button id="#btn-cookie" class="button is-success is-rounded button-cookie">\n' +
+            // '                        <span>OK</span>\n' +
+            // '                    </button>\n' +
+            // '                </div>\n' +
+            // '\n' +
+            '        </div>\n' +
+            '    </section>'
+        );
+
+
+
+
