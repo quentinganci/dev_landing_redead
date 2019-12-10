@@ -1,3 +1,19 @@
+.cookie_alert{
+    bottom: 0;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    position: fixed;
+    padding-bottom: 18px;
+    border-radius: 0;
+
+    a{
+        color:#F7A61B;
+    }
+}
+
 /***
 NAVBAR ------------------------------------------------------------------------------------------------------------------------------
 ***/

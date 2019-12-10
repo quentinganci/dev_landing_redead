@@ -37,3 +37,14 @@ document.getElementById('litterature').onclick = function() {
     document.getElementById('boite').innerHTML = '';
     document.getElementById('boite').innerHTML = '<a href="http://www.parismusees.paris.fr/fr/activites/conferences-litteraires" class="column" target="_blank">Conférence littéraire</a><a href="https://www.52we.com/fr/guides/week-end-au-coeur-du-paris-litteraire.html" class="column" target="_blank">Evenements littéraires</a><a href="https://www.pagesjaunes.fr/annuaire/paris-75/livres-anciens" class="column" target="_blank">Adresses de librairies anciennes</a>';
 };
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+        $notification = $delete.parentNode;
+        $delete.addEventListener('click', () => {
+            $notification.parentNode.removeChild($notification);
+        });
+    });
+});
+
