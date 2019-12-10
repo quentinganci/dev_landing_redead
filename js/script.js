@@ -117,6 +117,70 @@ ScrollReveal().reveal('#inspiration h2', {
     reset: true
 });
 
+ScrollReveal().reveal('.is-1', {
+    easing: 'ease-in',
+    interval: 200,
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('#inspiration div article div', {
+    easing: 'ease-in',
+    interval: 200,
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('.networks h2', {
+    easing: 'ease-in',
+    distance: '50px',
+    scale: 2,
+    duration: 500,
+    delay: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('.is-one-fifth', {
+    easing: 'ease-in',
+    distance: '50px',
+    scale: 1,
+    duration: 500,
+    delay: 900,
+    reset: true
+});
+
+ScrollReveal().reveal('.hashtag', {
+    easing: 'ease-in',
+    distance: '50px',
+    scale: 2,
+    duration: 500,
+    delay: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('.my-container', {
+    easing: 'ease-in',
+    origin: 'bottom',
+    distance: '20px',
+    scale: 1,
+    duration: 500,
+    delay: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('section.association h2', {
+    easing: 'ease-in',
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('section.association p', {
+    easing: 'ease-in',
+    duration: 500,
+    reset: true
+});
+
+
 
 
 
