@@ -7020,9 +7020,6 @@ section.campain {
     section.campain {
       margin-top: 124px; } }
 
-section#main {
-  background-color: black !important; }
-
 .media-text {
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
@@ -7415,5 +7412,18 @@ GLOBAL -------------------------------------------------------------------------
 
 .left {
   justify-content: flex-start; }
+
+#mentions-legales {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  margin-left: 6rem; }
+  #mentions-legales h1 {
+    font-weight: bold;
+    font-size: 24px; }
+  #mentions-legales h2 {
+    font-weight: bold;
+    font-size: 20px; }
+  #mentions-legales h3 {
+    font-weight: bold; }
 
 /*# sourceMappingURL=all.css.map */
