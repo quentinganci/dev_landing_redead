@@ -7115,7 +7115,8 @@ section.background {
           section.background div#inspiration div div figure img.art-icon.grow {
             transition: all .2s ease-in-out; }
             section.background div#inspiration div div figure img.art-icon.grow:hover {
-              transform: scale(1.2); }
+              transform: scale(1.2);
+              cursor: pointer; }
       section.background div#inspiration div div p.subtitle {
         font-family: 'Raleway', sans-serif;
         color: #FFF;

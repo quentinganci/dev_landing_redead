@@ -1,5 +1,124 @@
 //ScrollReveal
-ScrollReveal().reveal('.headline',{delay: 2000});
+ScrollReveal().reveal('.headline', {
+    easing: 'ease-in',
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('.subtitle', {
+    easing: 'ease-in',
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('.my-cta', {
+    easing: 'ease-in',
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('#scrollPicto', {
+    easing: 'ease-in',
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('#scrollPicto', {
+    easing: 'ease-in',
+    duration: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('#cortisol', {
+    easing: 'ease-in',
+    origin: 'left',
+    distance: '50px',
+    duration: 500,
+    delay: 400,
+    reset: true
+});
+
+ScrollReveal().reveal('#francais', {
+    easing: 'ease-in',
+    origin: 'right',
+    distance: '50px',
+    scale: 1,
+    duration: 500,
+    delay: 700,
+    reset: true
+});
+
+ScrollReveal().reveal('.media-is-left', {
+    easing: 'ease-in',
+    origin: 'bottom',
+    distance: '50px',
+    scale: 1,
+    duration: 500,
+    delay: 900,
+    reset: true
+});
+
+ScrollReveal().reveal('.media-is-right', {
+    easing: 'ease-in',
+    origin: 'bottom',
+    distance: '50px',
+    scale: 1,
+    duration: 500,
+    delay: 900,
+    reset: true
+});
+
+
+ScrollReveal().reveal('.campain-column', {
+    easing: 'ease-in',
+    distance: '50px',
+    scale: 2,
+    duration: 500,
+    delay: 990,
+    reset: true
+});
+
+ScrollReveal().reveal('.campagne-headline', {
+    easing: 'ease-in',
+    distance: '50px',
+    scale: 2,
+    duration: 500,
+    delay: 990,
+    reset: true
+});
+
+ScrollReveal().reveal('.orange-center', {
+    easing: 'ease-in',
+    origin: 'bottom',
+    distance: '20px',
+    scale: 1,
+    duration: 500,
+    delay: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('.is-one-fifths', {
+    easing: 'ease-in',
+    origin: 'top',
+    distance: '30px',
+    scale: 1,
+    duration: 500,
+    delay: 500,
+    reset: true
+});
+
+ScrollReveal().reveal('#inspiration h2', {
+    easing: 'ease-in',
+    origin: 'top',
+    distance: '30px',
+    scale: 1,
+    duration: 500,
+    delay: 500,
+    reset: true
+});
+
+
+
 
 document.getElementById('photo').onclick = function() {
     document.getElementById('boite').innerHTML = '';
