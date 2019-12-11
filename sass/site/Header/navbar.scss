@@ -67,3 +67,13 @@ figure.image .my-logo {
         color: #000;
     }
 }
+
+a.navbar-item.is-active {
+    background-color: #F7A61B;
+}
+
+@media screen and (max-width: 1023px){
+    .navbar-menu {
+        background-color: #F7A61B;
+    }
+}

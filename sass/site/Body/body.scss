@@ -395,3 +395,43 @@ SCROLL -------------------------------------------------------------------------
 html {
     scroll-behavior: smooth;
 }
+
+/***
+RESPONSIVE ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+@media screen and (max-width: 1023px){
+    .columns.is-mobile > .column.is-half {
+        width: 100%;
+    }
+    .twitter {
+        padding: 0px;
+        margin: 0 auto;
+        width: 340px;
+    }
+    .facebook {
+        padding: 0px;
+        margin: 0 auto;
+        width: 340px;
+    }
+    #mobile-block {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .column.is-one-fifth {
+        width:340px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .media-content {
+        overflow-x: unset;
+    }
+    div#francais {
+        margin-right: 0rem;
+        margin-left: 3rem;
+    }
+}
+
