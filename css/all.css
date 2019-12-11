@@ -7013,6 +7013,9 @@ label.panel-block {
 /***
 CAMAPGNE ------------------------------------------------------------------------------------------------------------------------------
 ***/
+body {
+  overflow-x: hidden; }
+
 section.campain {
   background-color: #FFF;
   padding: 3rem 0px; }
@@ -7254,26 +7257,6 @@ section.association {
 /***
 FOOTER ------------------------------------------------------------------------------------------------------------------------------
 ***/
-footer {
-  background-color: #333333;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 0px !important;
-  padding: 12px; }
-  footer a, footer p {
-    font-size: 12px;
-    color: #FFF; }
-    footer a:hover, footer p:hover {
-      color: #FFF; }
-    footer a:first-child, footer p:first-child {
-      margin-left: 16px;
-      margin-right: 5rem; }
-    footer a:last-child, footer p:last-child {
-      margin-left: 2rem;
-      margin-left: 1rem; }
-  footer p {
-    margin-right: 1.5rem;
-    margin-left: 62px; }
-
 /***
 SCROLL ------------------------------------------------------------------------------------------------------------------------------
 ***/
@@ -7309,6 +7292,49 @@ RESPONSIVE ---------------------------------------------------------------------
   div#francais {
     margin-right: 0rem;
     margin-left: 3rem; } }
+footer {
+  background-color: #333333;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 0px !important;
+  padding: 12px; }
+  footer a, footer p {
+    font-size: 12px;
+    color: #FFF; }
+    footer a:hover, footer p:hover {
+      color: #FFF; }
+    footer a:first-child, footer p:first-child {
+      margin-left: 16px; }
+    footer a:last-child, footer p:last-child {
+      margin-left: 2rem;
+      margin-left: 1rem; }
+  footer p {
+    margin-right: 1.5rem;
+    margin-left: 62px; }
+
+.column-container {
+  width: 100%; }
+
+.container-footer {
+  display: inline-flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between; }
+
+.first-footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.second-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.third-footer-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
 /***
 HEADER ------------------------------------------------------------------------------------------------------------------------------
 ***/
@@ -7329,7 +7355,7 @@ HEADER -------------------------------------------------------------------------
 
 .block-wrap-right {
   position: absolute;
-  right: -6px;
+  right: 0;
   top: 377px;
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
   z-index: 1; }
