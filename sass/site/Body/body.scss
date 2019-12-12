@@ -405,5 +405,9 @@ RESPONSIVE ---------------------------------------------------------------------
         margin-right: 0rem;
         margin-left: 3rem;
     }
+    .media-container {
+        flex-direction: column;
+        margin: 0rem 1rem;
+    }
 }
 

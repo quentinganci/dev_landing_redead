@@ -61,6 +61,11 @@ HEADER -------------------------------------------------------------------------
     h2 {
         font-size: 36px;
         font-weight: 900;
+        color: #F7A61B;
+    }
+
+    .subtitle {
+        color: #F7A61B;
     }
 
     .my-cta {
@@ -88,14 +93,22 @@ RESPONSIVE ---------------------------------------------------------------------
 @media screen and (max-width: 768px){
     .block-wrap-right {
         top: 2519px;
+        right: -62px
     }
-    #headline h2 {
-        font-size: 28px;
+    .block-wrap-left {
+        left: -62px;
     }
-    .subtitle {
-        font-size: 16px;
-    }
-    #headline .my-cta {
-        font-size: 18px;
-    }
+    #headline {
+        margin-left: 2rem;
+
+        h2 {
+            font-size: 28px;
+        }
+        .subtitle {
+            font-size: 16px;
+        }
+        #headline .my-cta {
+            font-size: 18px;
+        }
+    } 
 }
