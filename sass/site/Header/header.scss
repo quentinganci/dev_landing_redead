@@ -100,15 +100,19 @@ RESPONSIVE ---------------------------------------------------------------------
     }
     #headline {
         margin-left: 2rem;
+        margin-top: 9rem;
 
         h2 {
-            font-size: 28px;
+            font-size: 24px;
         }
         .subtitle {
-            font-size: 16px;
+            font-size: 13px;
         }
-        #headline .my-cta {
-            font-size: 18px;
+        .my-cta {
+            font-size: 14px;
         }
     } 
+    #scrollPicto {
+        display: none;
+    }
 }
