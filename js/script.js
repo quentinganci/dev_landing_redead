@@ -197,15 +197,15 @@ document.getElementById('cinema').onclick = function() {
 };
 document.getElementById('danse').onclick = function() {
     document.getElementById('boite').innerHTML = '';
-    document.getElementById('boite').innerHTML = '';
+    document.getElementById('boite').innerHTML = '<a href="https://www.theatresparisiensassocies.com/spectacle-danse-choregraphique-paris" class="column" target="_blank">Spectacle de danse</a><a href="https://www.fnacspectacles.com/place-spectacle/Danse/Danse-a-Paris-p3122410154794565240.htm" class="column" target="_blank">Billeterie de spectacles de danse</a><a href="https://www.ubisoft.com/fr-fr/game/just-dance-2019" class="column" target="_blank">Jeu de danse</a>';
 };
 document.getElementById('theatre').onclick = function() {
     document.getElementById('boite').innerHTML = '';
-    document.getElementById('boite').innerHTML = '';
+    document.getElementById('boite').innerHTML = '<a href="https://www.offi.fr/theatre" class="column" target="_blank">Théâtre sur Paris</a><a href="https://www.theatresparisiensassocies.com/pieces-theatre-paris/" class="column" target="_blank">Spectacles au théâtre</a><a href="https://www.fnac.com/n6997/Humour-Theatre-DVD-Blu-Ray/Theatre?awc=12665_1576167774_ea7981e4481604e184b3cb6e379d166b&ectrans=1&Origin=Awin101248" class="column" target="_blank">DVDs issus de théâtres</a>';
 };
 document.getElementById('scene').onclick = function() {
     document.getElementById('boite').innerHTML = '';
-    document.getElementById('boite').innerHTML = '<a href="https://www.fnacspectacles.com/place-spectacle/humour/humour-7110577968918422048-lt.htm" class="column" target="_blank">Spéctacle d\'humour</a>';
+    document.getElementById('boite').innerHTML = '<a href="https://www.fnacspectacles.com/place-spectacle/humour/humour-7110577968918422048-lt.htm" class="column" target="_blank">Spéctacle d\'humour</a><a href="https://www.billetreduc.com/plateau-d-humoristes/r/91/liste.html" class="column" target="_blank">Spectacles humoristiques</a><a href="https://www.fnac.com/n1865/Humour-Theatre-DVD-Blu-Ray/Humour-et-Spectacles" class="column" target="_blank">DVDs humoristiques</a>';
 };
 document.getElementById('musique').onclick = function() {
     document.getElementById('boite').innerHTML = '';
