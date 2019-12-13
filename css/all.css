@@ -9990,6 +9990,7 @@ figure.image .my-logo {
   color: #FFF;
   padding-top: 0;
   padding-bottom: 16px;
+  background-color: #F7A61B;
 }
 #navbarMenuHeroA .navbar-item.my-navbar-item:hover {
   background-color: #F7A61B;
