@@ -9912,8 +9912,7 @@ RESPONSIVE ---------------------------------------------------------------------
 ***/
 @media screen and (max-width: 768px) {
   .block-wrap-right {
-    top: 2837px;
-    right: 0px;
+    display: none;
   }
 
   .block-wrap-left {
