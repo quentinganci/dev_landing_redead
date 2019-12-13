@@ -66,11 +66,13 @@ figure.image .my-logo {
     &:focus{
         color: #000;
     }
+    .is-active {
+    background-color: #F7A61B;
+    font-weight: 800;
+}
 }
 
-a.navbar-item.is-active {
-    background-color: #F7A61B;
-}
+
 
 @media screen and (max-width: 1023px){
     .navbar-menu {

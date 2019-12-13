@@ -9485,13 +9485,18 @@ section.explainer {
 .video-bg-middle {
   position: relative;
   width: 100vw;
-  height: 500px;
+  height: fit-content;
   z-index: 0;
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .video-bg-middle {
+    height: fit-content;
+  }
+}
 /***
 PARTAGE ------------------------------------------------------------------------------------------------------------------------------
 ***/
@@ -9557,6 +9562,7 @@ section.background div#inspiration div div p.subtitle {
   font-size: 16px;
 }
 section.background div#inspiration div article {
+  display: none;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
   font-family: "Raleway", sans-serif;
@@ -9646,8 +9652,8 @@ div.my-container div div p {
   margin-bottom: 24px;
 }
 div.my-container div div a .icon, div.my-container div div footer p .icon, footer div.my-container div div p .icon {
-  width: 58px;
-  height: 58px;
+  width: 53px;
+  height: 53px;
   padding-right: 16px;
 }
 div.my-container div div a #gmail-icon, div.my-container div div footer p #gmail-icon, footer div.my-container div div p #gmail-icon {
@@ -9750,6 +9756,18 @@ RESPONSIVE ---------------------------------------------------------------------
   .media-container {
     flex-direction: column;
     margin: 0rem 1rem;
+  }
+
+  #h2-center {
+    font-size: 19px;
+  }
+
+  section.networks h2 {
+    font-size: 38px;
+  }
+
+  section.background div#inspiration h2 {
+    font-size: 38px;
   }
 }
 footer {
@@ -9878,7 +9896,7 @@ HEADER -------------------------------------------------------------------------
   color: #FFF;
   border-radius: 40px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 19px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -9894,8 +9912,8 @@ RESPONSIVE ---------------------------------------------------------------------
 ***/
 @media screen and (max-width: 768px) {
   .block-wrap-right {
-    top: 2519px;
-    right: -62px;
+    top: 2837px;
+    right: 0px;
   }
 
   .block-wrap-left {
@@ -9981,9 +9999,9 @@ figure.image .my-logo {
 #navbarMenuHeroA .navbar-item.my-navbar-item:focus {
   color: #000;
 }
-
-a.navbar-item.is-active, footer p.navbar-item.is-active {
+#navbarMenuHeroA .navbar-item.my-navbar-item .is-active {
   background-color: #F7A61B;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 1023px) {
